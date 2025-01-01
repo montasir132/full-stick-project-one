@@ -1,0 +1,120 @@
+/*common start*/
+body{
+	font-family: ;
+	font-size: 16px;
+	font-weight: 400;
+	color: ;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+    border-bottom: 2px solid #00000017;
+}
+.logo h1{
+	font-size: 25px;
+}
+.menu ul li a{
+	padding: 0 20px !important;
+    font-size: 18px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	border-bottom: 2px solid #00000017;
+}
+.mh_custom{
+	min-height: 500px;
+}
+.b_content{}
+.b_icon i{
+	font-size: 370px;
+	position: relative;
+  	animation: mynews 3s infinite;
+}
+@keyframes mynews {
+  0%   {top: 0px;}
+  50%  {top: 20px;}
+  100% {top: 0px;}
+}
+/*banner end*/
+/*category start*/
+.category{
+	padding: 100px 0;
+	border-bottom: 2px solid #00000017;
+}
+.c_title{
+
+}
+.f_icon{
+	margin-top: 40px;
+    padding: 50px 10px;
+}
+.f_icon a i{
+	font-size: 100px;
+	transition: .3s;
+}
+.f_icon a i:hover{
+	font-size: 90px;
+}
+.f_icon h3{
+	font-size: 20px;
+}
+/*category end*/
+/*tech news start*/
+.tech{
+	padding: 100px 0;
+	border-bottom: 2px solid #00000017;
+}
+.c_news{
+	margin-top: 40px;
+    padding: 0 25px;
+}
+.c_news i{
+	font-size: 50px;
+}
+.c_news h2{
+	font-size: 25px;
+}
+.c_news p{}
+.c_news a{}
+/*tech news end*/
+/*health news start*/
+.health{
+	padding: 100px 0;
+	border-bottom: 2px solid #00000017;
+}
+/*health news end*/
+/*education news start*/
+.education{
+	padding: 100px 0;
+	border-bottom: 2px solid #00000017;
+}
+/*education news end*/
+/*footer start*/
+footer{
+	padding: 100px 0;
+}
+.f_text ul li a{
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.copy{
+	padding: 50px 0 0;
+}
+/*footer end*/
+
+/*detail news*/
+.details{
+	margin-top: 0px;
+}
+.details i{
+	font-size: 100px;
+}
+.details h2{
+	font-size: 30px;
+}
+.details p{
+	font-size: 18px;
+}
+/*detail news*/
